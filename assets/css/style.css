@@ -206,7 +206,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/welcome-banner.jpg)no-repeat;
+    background:url(../images/welcome-hero/car1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -246,7 +246,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     background: #4e4ffa;
     color: #fff;
     border-radius: 3px;
-    margin-top: 55px;
+    margin-top: 120px;
     -webkit-transition: .3s linear; 
     -moz-transition:.3s linear; 
     -ms-transition:.3s linear; 
@@ -265,7 +265,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .model-search-content {
     padding: 40px 0;
     background: #fff;
-    box-shadow:0 10px 40px 0px rgba(38,40,64,.2);
+    box-shadow:0 10px 40px 0px rgba(255, 255, 255, 0.2);
     position: absolute;
     bottom: -150px;
     width: 100%;
@@ -295,7 +295,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .model-select-icon select {
     font-size: 16px;
-    color: #888f9d;
+    color: #fcfdfd;
     text-transform: capitalize;
 }
 .model-select-icon:after{
@@ -304,7 +304,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     right: 0px;
     top: 0;
     font-size: 10px;
-    color: #888f9d;
+    color: #fcfdfe;
     background: #f8f8f8;
     height: 60px;
     line-height: 60px;
@@ -325,14 +325,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------
         5. Service 
 --------------------------------------*/
-.service { padding: 260px 0 87px;}
+.service { padding: 260px 0 87px;
+    background:url(../images/welcome-hero/car1.jpg)no-repeat;
+    background-size: cover;
+}
 
 .single-service-item{
     text-align: center;
     padding:55px 30px 60px;
     border-radius: 3px;
     margin-bottom: 30px;
-    border: 1px solid #dadfe9;
+    border: 1px solid #fdfdfe;
     -webkit-transition: .3s linear; 
     -moz-transition:.3s linear; 
     -ms-transition:.3s linear; 
@@ -342,20 +345,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 .single-service-icon {
     display: inline-block;
-    color: #50616c;
+    color: #fafbfc;
 }
 .single-service-item h2 a {
     font-size:20px;
+    color: white;
     margin: 35px 0 20px;
 }
 .single-service-item h2 a span {text-transform:  lowercase;}
-.single-service-item p {padding-bottom: 35px;text-transform: initial;position: relative;}
+.single-service-item p {padding-bottom: 35px;text-transform: initial;position: relative; color: white;}
 .single-service-item p:before {
     position: absolute;
     content: "";
     width: 20px;
     height: 3px;
-    background: #3030ea;
+    background: #00000f;
     bottom: 0;
     left: 50%;
     margin-left: -10px;
@@ -366,7 +370,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 
 .single-service-item:hover h2 a,.single-service-item:hover p{color: #fff;}
-.single-service-item:hover  p:before {background: #fff;}
+.single-service-item:hover  p:before {background: #f9f6f6;}
 .single-service-item:hover{box-shadow: 0 12px 30px 0px rgba(0,1,193,.2);background: #4e4ffa;border: 1px solid #4e4ffa;}
 
 
@@ -543,9 +547,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         12. Contact
 --------------------------------------*/
 .contact {
-    background: #2a2d54;
+    background: #0d0d0d;
 }
-.footer-top {padding: 112px 0 72px;}
+.footer-top {padding: 112px 0 72px;
+    height: 100vh;
+}
 
 /*.footer-logo*/
 .footer-logo a,.footer-logo a:hover,.footer-logo a:focus{
@@ -564,7 +570,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     margin:40px 0 20px;
 }
 .footer-contact p {
-    margin: 0;
+    margin: ;
     color: #d1d7e9;
 }
 /*.footer-logo*/
@@ -607,7 +613,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*hm-foot-email*/
 .hm-foot-email{position: relative;}
 .foot-email-box .form-control {
-    background:#26294d;
+    margin-top: 10px;
+    background:#f7f7f8;
     display: block;
     padding: 15px 20px;
     outline:0!important;
@@ -616,7 +623,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .foot-email-box input[type="text"]{
     font-size: 12px;
-    color: #666c81;
+    color: #445285;
     font-weight: 300;
 }
 .foot-email-subscribe {
@@ -626,7 +633,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     width: 50px;
     height: 100%;
     background: transparent;
-    color: #666c81;
+    color: #03050a;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -639,10 +646,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*.footer-copyright */
 .footer-copyright {
     padding: 20px 0 17px;
-    border-top: 1px solid #434859;
+    /* border-top: 1px solid #434859; */
 }
 .footer-copyright p,.footer-copyright p a {
-    color: #a8a9bf;
+    color: #f5f5f8;
+    padding-top: 11rem;
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
