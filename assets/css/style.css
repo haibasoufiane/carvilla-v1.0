@@ -211,6 +211,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     background-size: cover;
     z-index: 1;
 }
+.welcome-hero-featuredCars{
+    position: relative;
+    background:url(../images/welcome-hero/car1.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+
 .welcome-hero:before {
     position: absolute;
     content: "";
@@ -433,7 +442,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .featured-model-info{padding:12px 7px;}
 .featured-model-info p {
     font-size: 12px;
-    color: #8c92a0;
+    color: #f6f7f8;
     text-transform: capitalize;
 }
 .featured-mi-span{display: inline-block;margin:0 10px;}
